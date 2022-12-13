@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* FOURTH CONTAINER */ 
+.feat-pro{
+    padding-bottom: 50px;
+} 
+.third-body{
+    padding-top: 50px;
+    padding-left: 75px;
+}
+.third-body h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+.third-body img{
+    width: 300px;
+    border: 2px solid rgb(133, 121, 121);
+    height: 250px;
+}
+.chair-images{
+    display: flex;
+}
+.product{
+    padding-left: 30px;
+}
+.product h3{
+    color: rgb(158, 161, 163);
+    font-size: 25px;
+    font-weight: 400;
+    padding-bottom: 25px;
+    padding-top: 15px;
+}
+.product p{
+    color: rgb(124, 129, 134);
+    font-size: 17px;
+    padding-bottom: 35px;
+}
+.icons{
+    font-size: 18px;
+    color: rgb(134, 134, 43);
+}
+.product h4{
+    font-size: 20px;
+    padding-top: 20px;
+    font-weight: 600;
+    font-family: cursive;
+}
+.product button{
+    height: 40px;
+    width: 140px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(87, 82, 82);
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 0;
+}
+.product button:hover{
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #000;
+}
+.product .fa-cart-shopping{
+    color: rgb(203, 26, 203);
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVENESS FOR WHOLE PAGE */
+@media (max-width: 1000px){
+  nav{
+    padding: 0 40px 0 50px;
+  }
+}
+@media (max-width: 920px) {
+  /* FOURTH BODY */
+  .third-body{
+    padding-top: 40px;
+    padding-left: 0px;
+}
+.chair-images{
+    display: block;
+}
+.third-body img{
+    width: 280px;
+    border: 2px solid rgb(133, 121, 121);
+}
+.product{
+    padding-bottom: 40px;
+}
+.third-body h2{
+    text-align: center;
+    font-size: 34px;
+    font-weight: 400;
+    padding-bottom: 50px;
+    font-family: cursive;
+}
+
+
+
+}
